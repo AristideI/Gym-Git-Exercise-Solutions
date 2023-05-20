@@ -1,6 +1,7 @@
 Terminal history
 
-
+"""
+bash
 
 
 walte@Walter MINGW64 /d/The Gym/Gym-Git-Exercise-Solutions (main)
@@ -158,4 +159,6 @@ $ ^C
 
 walte@Walter MINGW64 /d/The Gym/Gym-Git-Exercise-Solutions (dev)
 $
+
+"""
 
