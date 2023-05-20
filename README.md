@@ -530,4 +530,143 @@ To https://github.com/AristideI/Gym-Git-Exercise-Solutions.git
 
 walte@Walter MINGW64 /d/The Gym/Gym-Git-Exercise-Solutions (ft/contact-page)
 
+
+
+walte@Walter MINGW64 /d/The Gym/git-cafe-exercise (updating-restaurant)
+$ cd ../Gym-Git-Exercise-Solutions/
+
+walte@Walter MINGW64 /d/The Gym/Gym-Git-Exercise-Solutions (ft/bundle-2)
+$ git checkout ft/faq-page
+Switched to branch 'ft/faq-page'
+
+walte@Walter MINGW64 /d/The Gym/Gym-Git-Exercise-Solutions (ft/faq-page)
+$ vi README.md
+
+walte@Walter MINGW64 /d/The Gym/Gym-Git-Exercise-Solutions (ft/faq-page)
+$ git checkout ft/team-page
+Switched to branch 'ft/team-page'
+
+walte@Walter MINGW64 /d/The Gym/Gym-Git-Exercise-Solutions (ft/team-page)
+$ git log
+commit b9a15ad4be4e7c212897db283c96b6eeb744b223 (HEAD -> ft/team-page, origin/ft/team-page)
+Author: aristidei <a.isingizwe@alustudent.com>
+Date:   Mon May 15 14:07:54 2023 +0200
+
+    making changes in team.html
+
+commit 461b1e3b658b8bc634342089b346d37deca21d79
+Author: aristidei <a.isingizwe@alustudent.com>
+Date:   Mon May 15 02:45:12 2023 +0200
+
+    updating terminal history
+
+commit 23d28d404ef821ef213cf72f3508dcb1dbdd6a99
+Merge: cae44aa de7512d
+Author: aristidei <a.isingizwe@alustudent.com>
+Date:   Mon May 15 02:42:38 2023 +0200
+
+    mergin ft/service-redesign
+
+commit de7512d7b53c11d0189e55f784d3771cce450494 (origin/ft/services-redesign, ft/services-redesign)
+Author: aristidei <a.isingizwe@alustudent.com>
+Date:   Mon May 15 02:39:54 2023 +0200
+
+    saint
+
+commit cae44aa9cb654c24f1c7473b0fff8d9808f9a26e
+Author: aristidei <a.isingizwe@alustudent.com>
+Date:   Mon May 15 02:37:42 2023 +0200
+
+    updating service
+
+commit e2e6011bd877adac28e5e709666c85ea075aaa5b
+Author: aristidei <a.isingizwe@alustudent.com>
+Date:   Mon May 15 02:24:32 2023 +0200
+
+    updating service.html
+
+commit cf6d11b15fd37d6cf90bc2ee1d0166b3a87da45b
+Author: aristidei <a.isingizwe@alustudent.com>
+Date:   Sun May 14 15:25:18 2023 +0200
+
+    updating terminal history
+
+commit b27b74c6e466314a639f0974feac16f60c3a789e
+Author: aristidei <a.isingizwe@alustudent.com>
+Date:   Sun May 14 15:12:52 2023 +0200
+
+
+walte@Walter MINGW64 /d/The Gym/Gym-Git-Exercise-Solutions (ft/team-page)
+$ git checkout ft/faq-page
+Switched to branch 'ft/faq-page'
+
+walte@Walter MINGW64 /d/The Gym/Gym-Git-Exercise-Solutions (ft/faq-page)
+$ git revert b9a15ad4be4e7c212897db283c96b6eeb744b223
+[ft/faq-page edcc599] Revert "making changes in team.html"
+ 1 file changed, 3 deletions(-)
+ delete mode 100644 team.html
+
+walte@Walter MINGW64 /d/The Gym/Gym-Git-Exercise-Solutions (ft/faq-page)
+$ git add .
+
+walte@Walter MINGW64 /d/The Gym/Gym-Git-Exercise-Solutions (ft/faq-page)
+$ git commit -m "reverting from team page"
+On branch ft/faq-page
+nothing to commit, working tree clean
+
+walte@Walter MINGW64 /d/The Gym/Gym-Git-Exercise-Solutions (ft/faq-page)
+$ git push origin ft/faq-page
+To https://github.com/AristideI/Gym-Git-Exercise-Solutions.git
+ ! [rejected]        ft/faq-page -> ft/faq-page (fetch first)
+error: failed to push some refs to 'https://github.com/AristideI/Gym-Git-Exercise-Solutions.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+walte@Walter MINGW64 /d/The Gym/Gym-Git-Exercise-Solutions (ft/faq-page)
+$ git pull origin ft/faq-page
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 720 bytes | 42.00 KiB/s, done.
+From https://github.com/AristideI/Gym-Git-Exercise-Solutions
+ * branch            ft/faq-page -> FETCH_HEAD
+   052ea00..d79f3da  ft/faq-page -> origin/ft/faq-page
+Merge made by the 'ort' strategy.
+ README.md | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+walte@Walter MINGW64 /d/The Gym/Gym-Git-Exercise-Solutions (ft/faq-page)
+$ git push
+fatal: The current branch ft/faq-page has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin ft/faq-page
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+walte@Walter MINGW64 /d/The Gym/Gym-Git-Exercise-Solutions (ft/faq-page)
+$ git push origin ft/faq-page
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 572 bytes | 572.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/AristideI/Gym-Git-Exercise-Solutions.git
+   d79f3da..c11f3a0  ft/faq-page -> ft/faq-page
+
+walte@Walter MINGW64 /d/The Gym/Gym-Git-Exercise-Solutions (ft/faq-page)
+$
+
+
+
+
+
 """
