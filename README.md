@@ -1,7 +1,8 @@
 Terminal history
 
 
-
+"""
+bash
 
 walte@Walter MINGW64 /d/The Gym/Gym-Git-Exercise-Solutions (main)
 $ echo "First file in git" > file1.txt
@@ -529,3 +530,4 @@ To https://github.com/AristideI/Gym-Git-Exercise-Solutions.git
 
 walte@Walter MINGW64 /d/The Gym/Gym-Git-Exercise-Solutions (ft/contact-page)
 
+"""
