@@ -1,5 +1,8 @@
 Terminal history
 
+"""
+bash
+
 walte@Walter MINGW64 /d/The Gym/Gym-Git-Exercise-Solutions $ git init Initialized empty Git repository in D:/The Gym/Gym-Git-Exercise-Solutions/.git/
 
 walte@Walter MINGW64 /d/The Gym/Gym-Git-Exercise-Solutions (master) $ git add . warning: in the working copy of 'pro.txt', LF will be replaced by CRLF the next time Git touches it
@@ -421,7 +424,7 @@ commit 1e501bd69b2cb993b88ea23319efae8d3b058bdd
 Author: aristidei <a.isingizwe@alustudent.com>
 Date: Sun May 14 16:40:05 2023 +0200
 
-    Exercise 2
+   # Exercise 2
 
 diff --git a/home.html b/home.html
 new file mode 100644
@@ -463,3 +466,6 @@ walte@Walter MINGW64 /d/The Gym/Gym-Git-Exercise-Solutions (dev)
 $ vi README.md
 
 walte@Walter MINGW64 /d/The Gym/Gym-Git-Exercise-Solutions (dev)
+
+
+"""
