@@ -1,5 +1,8 @@
 Terminal history
 
+"""
+bash
+
 walte@Walter MINGW64 /d/The Gym/Gym-Git-Exercise-Solutions $ git init Initialized empty Git repository in D:/The Gym/Gym-Git-Exercise-Solutions/.git/
 
 walte@Walter MINGW64 /d/The Gym/Gym-Git-Exercise-Solutions (master) $ git add . warning: in the working copy of 'pro.txt', LF will be replaced by CRLF the next time Git touches it
@@ -508,4 +511,4 @@ walte@Walter MINGW64 /d/The Gym/Gym-Git-Exercise-Solutions (ft/bundle-2)
 $
 
 
-
+"""
